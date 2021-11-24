@@ -1,0 +1,129 @@
+body{
+  background-color: #F8F8F8;
+  width: 100%;
+}
+
+#deliveries{
+  padding: 20px;
+  margin: 50px 50;
+  box-sizing: border-box;
+  border: 1px solid rgb(158, 154, 154);
+  border-radius: 20px;
+
+}
+.list-column{
+  padding: 50px;
+  margin: 30px 1px;
+  box-sizing: border-box;
+}
+
+
+.some-page-wrapper {
+  margin: 15px;
+  background-color: #F2F2F2;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: inline-flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  width: 100%;
+  padding: 80px 80px;
+  margin: 50px 50;
+  
+}
+
+.two-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+  border-left: 1px solid gray;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button #cadastrar {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=reset] {
+  width: 100%;
+  background-color: #e00808;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=excluir] {
+  width: 70%;
+  background-color: blue;
+  color: white;
+  padding: 4px 10px;
+  margin: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+table th {
+  background-color: #bdc7c2;
+  color: white;
+}
+
+
+table th, td {
+  padding: 1px 5px;
+  text-align: left;
+}
+
+tr:nth-child(odd) {
+  background-color:#ffffff;
+}
+
+tr:nth-child(even) {
+  background-color:#cccccc;
+}
+
+
+a{
+
+  color:blue;
+
+}
+
+.center {
+  text-align: center;
+}
