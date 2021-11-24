@@ -73,16 +73,16 @@ http://localhost:8080/deliveries/
 ]
 
 ```
-
+```
 # Criando cadastro de entregas POST
 
 http://localhost:8080/deliveries/
 
 * input
 
-```
+
 {		
-		"nome": "Danielle Rodrigues",
+    "nome": "Danielle Rodrigues",
     "peso": 23,
     "endereco": "Francisca",
     "telefone": "999999"
@@ -102,7 +102,7 @@ http://localhost:8080/deliveries/
 }
 
 ```
-
+```
 # Deletando cadastro de entregas DELETE
 
 http://localhost:8080/deliveries/:id
