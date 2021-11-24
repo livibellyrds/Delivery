@@ -35,10 +35,10 @@ O projeto estará disponível em <http://localhost:8080>
 ---
 
 # Lista de entregas GET
-```
+
 http://localhost:8080/deliveries/
 
-
+```
 * response
 
 
@@ -76,9 +76,11 @@ http://localhost:8080/deliveries/
 
 # Criando cadastro de entregas POST
 
-```
+
 
 http://localhost:8080/deliveries/
+
+```
 
 * input
 
@@ -107,10 +109,12 @@ http://localhost:8080/deliveries/
 # Deletando cadastro de entregas DELETE
 
 
-```
+
 
 http://localhost:8080/deliveries/:id
 
+
+```
 * response
 
 
