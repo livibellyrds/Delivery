@@ -90,7 +90,7 @@ http://localhost:8080/deliveries/
 
 * response
 
-```
+
 {
   "id": 1,
   "nome": "Danielle Rodrigues",
@@ -109,5 +109,7 @@ http://localhost:8080/deliveries/:id
 
 * response
 
-```
+
 - Retorna status code 202
+
+```
