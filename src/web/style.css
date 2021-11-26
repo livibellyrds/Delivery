@@ -1,26 +1,24 @@
-body{
-  background-color: #F8F8F8;
+body {
+  background-color: #f8f8f8;
   width: 100%;
 }
 
-#deliveries{
+#deliveries {
   padding: 20px;
   margin: 50px 50;
   box-sizing: border-box;
   border: 1px solid rgb(158, 154, 154);
   border-radius: 20px;
-
 }
-.list-column{
+.list-column {
   padding: 50px;
   margin: 30px 1px;
   box-sizing: border-box;
 }
 
-
 .some-page-wrapper {
   margin: 15px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .row {
@@ -38,7 +36,6 @@ body{
   width: 100%;
   padding: 80px 80px;
   margin: 50px 50;
-  
 }
 
 .two-column {
@@ -49,7 +46,8 @@ body{
   border-left: 1px solid gray;
 }
 
-input[type=text], select {
+input[type="text"],
+select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -58,9 +56,10 @@ input[type=text], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
-button #cadastrar {
+
+#cadastrar {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -69,7 +68,7 @@ button #cadastrar {
   cursor: pointer;
 }
 
-button[type=reset] {
+#limpar {
   width: 100%;
   background-color: #e00808;
   color: white;
@@ -80,10 +79,9 @@ button[type=reset] {
   cursor: pointer;
 }
 
-input[type=excluir] {
+input[type="excluir"] {
   width: 70%;
-  background-color: blue;
-  color: white;
+  color: blue;
   padding: 4px 10px;
   margin: 8px;
   border: none;
@@ -103,27 +101,28 @@ table th {
   color: white;
 }
 
-
-table th, td {
+table th,
+td {
   padding: 1px 5px;
   text-align: left;
 }
 
 tr:nth-child(odd) {
-  background-color:#ffffff;
+  background-color: #ffffff;
 }
 
 tr:nth-child(even) {
-  background-color:#cccccc;
+  background-color: #cccccc;
 }
 
-
-a{
-
-  color:blue;
-
+a {
+  color: blue;
 }
 
 .center {
   text-align: center;
+}
+
+span {
+  color: blue;
 }
